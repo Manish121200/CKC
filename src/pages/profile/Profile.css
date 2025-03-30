@@ -1,0 +1,138 @@
+/* Profile Section */
+body {
+  margin-top: 100px;
+}
+
+.profile-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Ensures uniform spacing */
+  max-width: 500px;
+  margin: auto;
+}
+
+.img-1 {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #5e9e91;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.s-13,
+.s-16 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.s-14,
+.s-17 {
+  margin-left: 5px;
+}
+
+/* Buttons */
+.action-button,
+.save-button {
+  margin-top: 10px;
+  width: 200px;
+  background-color: #5e9e91;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.save-button:hover,
+.action-button:hover {
+  background-color: #4c7d71;
+}
+
+/* Main Content & Sections */
+.main-section,
+.notification-section,
+.newsletter-section,
+.form-section {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-section .MuiTypography-h5 {
+  margin-bottom: 20px;
+}
+
+/* Newsletter Subscription */
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-button {
+  background-color: #5e9e91;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.newsletter-button:hover {
+  background-color: #4a8478;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .profile-section {
+    padding: 15px;
+  }
+  
+  .img-1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .action-button,
+  .save-button {
+    width: 100%;
+  }
+
+  .main-section,
+  .notification-section,
+  .newsletter-section,
+  .form-section {
+    max-width: 100%;
+    padding: 15px;
+  }
+}
